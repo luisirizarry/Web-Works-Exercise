@@ -1,0 +1,35 @@
+HTTP: A way for web browsers and servers to talk to each other.
+URL: The address you type in to visit a website.
+DNS: A system that turns website names an IP address.
+Query String: Extra info added to a URL after a ?.
+
+GET: Requests data from a server. It doesn't change any data on the server.
+POST: Requests data from a server. It doesn't change any data on the server.
+
+HTTP Request: What your browser sends to get a webpage.
+HTTP Response: What the server sends back, like the webpage.
+
+HTTP Header: Extra info sent with requests or responses.
+Accept-Language: This header tells the server which language the user prefers, like English.
+Content-Type: This header tells what kind of data is being sent or received, like JSON.
+
+
+What Happens When You Type a URL: Your browser finds the website’s server by using DNS and getting the IP address,
+browser requests for the webpage, the servers sends back a status code, browser then makes the site.
+
+Part Two:
+curl "https://icanhazdadjoke.com/search?term=pirate"
+Jokes:
+Why couldn't the kid see the pirate movie? Because it was rated arrr!
+What did the pirate say on his 80th birthday? Aye Matey!
+What does a pirate pay for his corn? A buccaneer!
+Why do pirates not know the alphabet? They always get stuck at "C".
+
+IP Addresses:
+icanhazdadjoke.com.     0       IN      A       104.21.66.15
+icanhazdadjoke.com.     0       IN      A       172.67.198.173
+
+Webpage:
+luis_i@DESKTOP-Q6O1VO9:/mnt/c/Users/CodeLuis/HowWebWorks$ python3 -m http.server
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+127.0.0.1 - - [18/Aug/2024 14:08:58] "GET / HTTP/1.1" 200 -
